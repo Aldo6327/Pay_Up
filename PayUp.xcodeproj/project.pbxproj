@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35172D321A9BE451F287A1EF /* Pods_PayUpUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A7C54F3A76FD95BBB9F28 /* Pods_PayUpUITests.framework */; };
+		6A3F35B51FC2447300F00B05 /* SplitAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3F35B41FC2447300F00B05 /* SplitAmount.swift */; };
+		6A6BF77E1FDA4E5000CD5766 /* NetworkCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BF77D1FDA4E5000CD5766 /* NetworkCheck.swift */; };
+		6A78998C1FCD383600EE3F63 /* Groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A78998B1FCD383600EE3F63 /* Groups.swift */; };
+		6A97B58F1FBE5AA5002F2034 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A97B58E1FBE5AA5002F2034 /* GoogleService-Info.plist */; };
+		6A97B5911FBE71D6002F2034 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A97B5901FBE71D6002F2034 /* UserInfo.swift */; };
+		6AA81C971FC4B8920047F0FB /* HistoryTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA81C961FC4B8920047F0FB /* HistoryTVCell.swift */; };
+		6AA81C9A1FC4B8FD0047F0FB /* HistoryTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AA81C991FC4B8FD0047F0FB /* HistoryTVC.swift */; };
+		6ADC642A1FBCE7E200F7D581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC64291FBCE7E200F7D581 /* AppDelegate.swift */; };
+		6ADC642C1FBCE7E200F7D581 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC642B1FBCE7E200F7D581 /* LoginViewController.swift */; };
+		6ADC642F1FBCE7E300F7D581 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADC642D1FBCE7E300F7D581 /* Main.storyboard */; };
+		6ADC64311FBCE7E300F7D581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADC64301FBCE7E300F7D581 /* Assets.xcassets */; };
+		6ADC64341FBCE7E300F7D581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADC64321FBCE7E300F7D581 /* LaunchScreen.storyboard */; };
+		6ADC643F1FBCE7E300F7D581 /* PayUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC643E1FBCE7E300F7D581 /* PayUpTests.swift */; };
+		6ADC644A1FBCE7E300F7D581 /* PayUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC64491FBCE7E300F7D581 /* PayUpUITests.swift */; };
+		6ADC645A1FBCFD5600F7D581 /* HomePageTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC64591FBCFD5600F7D581 /* HomePageTVC.swift */; };
+		6AFBD4571FD0BB610063BF0E /* InviteFriendsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFBD4561FD0BB610063BF0E /* InviteFriendsTVC.swift */; };
+		6AFBD4591FD520900063BF0E /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFBD4581FD520900063BF0E /* Transactions.swift */; };
+		6AFBD45A1FD521370063BF0E /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFBD4581FD520900063BF0E /* Transactions.swift */; };
+		6AFBD45B1FD521380063BF0E /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AFBD4581FD520900063BF0E /* Transactions.swift */; };
+		CB98EAE3A5E511159818BFCC /* Pods_PayUpTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCD350144C0C6E3100216C76 /* Pods_PayUpTests.framework */; };
+		E2EC2BE5D9A80615E56DE5F2 /* Pods_PayUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFEB8F2E2DC9AC359B04594 /* Pods_PayUp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ADC643B1FBCE7E300F7D581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ADC641E1FBCE7E200F7D581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADC64251FBCE7E200F7D581;
+			remoteInfo = PayUp;
+		};
+		6ADC64461FBCE7E300F7D581 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ADC641E1FBCE7E200F7D581 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADC64251FBCE7E200F7D581;
+			remoteInfo = PayUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		502A460C0FE51A155D6D9F26 /* Pods-PayUpUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUpUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayUpUITests/Pods-PayUpUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A3F35B41FC2447300F00B05 /* SplitAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitAmount.swift; sourceTree = "<group>"; };
+		6A6BF77D1FDA4E5000CD5766 /* NetworkCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkCheck.swift; sourceTree = "<group>"; };
+		6A78998B1FCD383600EE3F63 /* Groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Groups.swift; sourceTree = "<group>"; };
+		6A97B58E1FBE5AA5002F2034 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6A97B5901FBE71D6002F2034 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		6AA81C961FC4B8920047F0FB /* HistoryTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTVCell.swift; sourceTree = "<group>"; };
+		6AA81C991FC4B8FD0047F0FB /* HistoryTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTVC.swift; sourceTree = "<group>"; };
+		6ADC64261FBCE7E200F7D581 /* PayUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADC64291FBCE7E200F7D581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ADC642B1FBCE7E200F7D581 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6ADC642E1FBCE7E300F7D581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ADC64301FBCE7E300F7D581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ADC64331FBCE7E300F7D581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ADC64351FBCE7E300F7D581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADC643A1FBCE7E300F7D581 /* PayUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADC643E1FBCE7E300F7D581 /* PayUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayUpTests.swift; sourceTree = "<group>"; };
+		6ADC64401FBCE7E300F7D581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADC64451FBCE7E300F7D581 /* PayUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ADC64491FBCE7E300F7D581 /* PayUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayUpUITests.swift; sourceTree = "<group>"; };
+		6ADC644B1FBCE7E300F7D581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ADC64591FBCFD5600F7D581 /* HomePageTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageTVC.swift; sourceTree = "<group>"; };
+		6ADC645B1FBDF96D00F7D581 /* PayUp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PayUp.entitlements; sourceTree = "<group>"; };
+		6AFBD4561FD0BB610063BF0E /* InviteFriendsTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteFriendsTVC.swift; sourceTree = "<group>"; };
+		6AFBD4581FD520900063BF0E /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		796669A64B40759005D758E2 /* Pods-PayUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayUp/Pods-PayUp.debug.xcconfig"; sourceTree = "<group>"; };
+		ABFEB8F2E2DC9AC359B04594 /* Pods_PayUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5091108399E7EFD0C095B4E /* Pods-PayUpUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUpUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayUpUITests/Pods-PayUpUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC0766362C9DB2DBF2705101 /* Pods-PayUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayUp/Pods-PayUp.release.xcconfig"; sourceTree = "<group>"; };
+		D5758FAB98BF6B3B5C5223BF /* Pods-PayUpTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUpTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PayUpTests/Pods-PayUpTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBF50E85C9BEB1878C4544C8 /* Pods-PayUpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayUpTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PayUpTests/Pods-PayUpTests.release.xcconfig"; sourceTree = "<group>"; };
+		EC8A7C54F3A76FD95BBB9F28 /* Pods_PayUpUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayUpUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCD350144C0C6E3100216C76 /* Pods_PayUpTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayUpTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ADC64231FBCE7E200F7D581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2EC2BE5D9A80615E56DE5F2 /* Pods_PayUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADC64371FBCE7E300F7D581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB98EAE3A5E511159818BFCC /* Pods_PayUpTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADC64421FBCE7E300F7D581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35172D321A9BE451F287A1EF /* Pods_PayUpUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FA6476E00D478D6A2409D2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABFEB8F2E2DC9AC359B04594 /* Pods_PayUp.framework */,
+				FCD350144C0C6E3100216C76 /* Pods_PayUpTests.framework */,
+				EC8A7C54F3A76FD95BBB9F28 /* Pods_PayUpUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A5D66551FBF506B0003C688 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6A97B5901FBE71D6002F2034 /* UserInfo.swift */,
+				6A78998B1FCD383600EE3F63 /* Groups.swift */,
+				6AFBD4581FD520900063BF0E /* Transactions.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6AA81C981FC4B8990047F0FB /* History */ = {
+			isa = PBXGroup;
+			children = (
+				6AA81C991FC4B8FD0047F0FB /* HistoryTVC.swift */,
+				6AA81C961FC4B8920047F0FB /* HistoryTVCell.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		6AA81C9B1FC4BB000047F0FB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6ADC642B1FBCE7E200F7D581 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6AA81C9C1FC4BB370047F0FB /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				6ADC64591FBCFD5600F7D581 /* HomePageTVC.swift */,
+				6AFBD4561FD0BB610063BF0E /* InviteFriendsTVC.swift */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		6AA81C9D1FC4BB4C0047F0FB /* AddPayment */ = {
+			isa = PBXGroup;
+			children = (
+				6A3F35B41FC2447300F00B05 /* SplitAmount.swift */,
+			);
+			path = AddPayment;
+			sourceTree = "<group>";
+		};
+		6ADC641D1FBCE7E200F7D581 = {
+			isa = PBXGroup;
+			children = (
+				6ADC64281FBCE7E200F7D581 /* PayUp */,
+				6ADC643D1FBCE7E300F7D581 /* PayUpTests */,
+				6ADC64481FBCE7E300F7D581 /* PayUpUITests */,
+				6ADC64271FBCE7E200F7D581 /* Products */,
+				C5B29F2C44DC8A20F5952B55 /* Pods */,
+				1FA6476E00D478D6A2409D2C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6ADC64271FBCE7E200F7D581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ADC64261FBCE7E200F7D581 /* PayUp.app */,
+				6ADC643A1FBCE7E300F7D581 /* PayUpTests.xctest */,
+				6ADC64451FBCE7E300F7D581 /* PayUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ADC64281FBCE7E200F7D581 /* PayUp */ = {
+			isa = PBXGroup;
+			children = (
+				6ADC64291FBCE7E200F7D581 /* AppDelegate.swift */,
+				6ADC645B1FBDF96D00F7D581 /* PayUp.entitlements */,
+				6A5D66551FBF506B0003C688 /* Model */,
+				6AA81C9B1FC4BB000047F0FB /* Login */,
+				6AA81C981FC4B8990047F0FB /* History */,
+				6AA81C9C1FC4BB370047F0FB /* Groups */,
+				6AA81C9D1FC4BB4C0047F0FB /* AddPayment */,
+				6ADC64301FBCE7E300F7D581 /* Assets.xcassets */,
+				6ADC642D1FBCE7E300F7D581 /* Main.storyboard */,
+				6A6BF77D1FDA4E5000CD5766 /* NetworkCheck.swift */,
+				6ADC64321FBCE7E300F7D581 /* LaunchScreen.storyboard */,
+				6ADC64351FBCE7E300F7D581 /* Info.plist */,
+				6A97B58E1FBE5AA5002F2034 /* GoogleService-Info.plist */,
+			);
+			path = PayUp;
+			sourceTree = "<group>";
+		};
+		6ADC643D1FBCE7E300F7D581 /* PayUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ADC643E1FBCE7E300F7D581 /* PayUpTests.swift */,
+				6ADC64401FBCE7E300F7D581 /* Info.plist */,
+			);
+			path = PayUpTests;
+			sourceTree = "<group>";
+		};
+		6ADC64481FBCE7E300F7D581 /* PayUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6ADC64491FBCE7E300F7D581 /* PayUpUITests.swift */,
+				6ADC644B1FBCE7E300F7D581 /* Info.plist */,
+			);
+			path = PayUpUITests;
+			sourceTree = "<group>";
+		};
+		C5B29F2C44DC8A20F5952B55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				796669A64B40759005D758E2 /* Pods-PayUp.debug.xcconfig */,
+				CC0766362C9DB2DBF2705101 /* Pods-PayUp.release.xcconfig */,
+				D5758FAB98BF6B3B5C5223BF /* Pods-PayUpTests.debug.xcconfig */,
+				EBF50E85C9BEB1878C4544C8 /* Pods-PayUpTests.release.xcconfig */,
+				502A460C0FE51A155D6D9F26 /* Pods-PayUpUITests.debug.xcconfig */,
+				C5091108399E7EFD0C095B4E /* Pods-PayUpUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ADC64251FBCE7E200F7D581 /* PayUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADC644E1FBCE7E300F7D581 /* Build configuration list for PBXNativeTarget "PayUp" */;
+			buildPhases = (
+				828FF27856C9F85D019E408D /* [CP] Check Pods Manifest.lock */,
+				6ADC64221FBCE7E200F7D581 /* Sources */,
+				6ADC64231FBCE7E200F7D581 /* Frameworks */,
+				6ADC64241FBCE7E200F7D581 /* Resources */,
+				9043B1513AE957C652CE7899 /* [CP] Embed Pods Frameworks */,
+				DB6DE3F7BF8D3975C5E5542A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayUp;
+			productName = PayUp;
+			productReference = 6ADC64261FBCE7E200F7D581 /* PayUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ADC64391FBCE7E300F7D581 /* PayUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADC64511FBCE7E300F7D581 /* Build configuration list for PBXNativeTarget "PayUpTests" */;
+			buildPhases = (
+				B24BFAEC3934E6DC67A8C270 /* [CP] Check Pods Manifest.lock */,
+				6ADC64361FBCE7E300F7D581 /* Sources */,
+				6ADC64371FBCE7E300F7D581 /* Frameworks */,
+				6ADC64381FBCE7E300F7D581 /* Resources */,
+				083C12930082F4A8646EE28C /* [CP] Embed Pods Frameworks */,
+				3C84E23A57E3AFCF809D8C4B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ADC643C1FBCE7E300F7D581 /* PBXTargetDependency */,
+			);
+			name = PayUpTests;
+			productName = PayUpTests;
+			productReference = 6ADC643A1FBCE7E300F7D581 /* PayUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ADC64441FBCE7E300F7D581 /* PayUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADC64541FBCE7E300F7D581 /* Build configuration list for PBXNativeTarget "PayUpUITests" */;
+			buildPhases = (
+				1AA7E817A82B97D9FE5E2DA7 /* [CP] Check Pods Manifest.lock */,
+				6ADC64411FBCE7E300F7D581 /* Sources */,
+				6ADC64421FBCE7E300F7D581 /* Frameworks */,
+				6ADC64431FBCE7E300F7D581 /* Resources */,
+				1B0FD16B261A5A89024FC649 /* [CP] Embed Pods Frameworks */,
+				BAE4286B1E886B81122D0232 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ADC64471FBCE7E300F7D581 /* PBXTargetDependency */,
+			);
+			name = PayUpUITests;
+			productName = PayUpUITests;
+			productReference = 6ADC64451FBCE7E300F7D581 /* PayUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ADC641E1FBCE7E200F7D581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Aldo Ayala";
+				TargetAttributes = {
+					6ADC64251FBCE7E200F7D581 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
+								enabled = 0;
+							};
+						};
+					};
+					6ADC64391FBCE7E300F7D581 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6ADC64251FBCE7E200F7D581;
+					};
+					6ADC64441FBCE7E300F7D581 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6ADC64251FBCE7E200F7D581;
+					};
+				};
+			};
+			buildConfigurationList = 6ADC64211FBCE7E200F7D581 /* Build configuration list for PBXProject "PayUp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ADC641D1FBCE7E200F7D581;
+			productRefGroup = 6ADC64271FBCE7E200F7D581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ADC64251FBCE7E200F7D581 /* PayUp */,
+				6ADC64391FBCE7E300F7D581 /* PayUpTests */,
+				6ADC64441FBCE7E300F7D581 /* PayUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ADC64241FBCE7E200F7D581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADC64341FBCE7E300F7D581 /* LaunchScreen.storyboard in Resources */,
+				6ADC64311FBCE7E300F7D581 /* Assets.xcassets in Resources */,
+				6A97B58F1FBE5AA5002F2034 /* GoogleService-Info.plist in Resources */,
+				6ADC642F1FBCE7E300F7D581 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADC64381FBCE7E300F7D581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADC64431FBCE7E300F7D581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		083C12930082F4A8646EE28C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayUpTests/Pods-PayUpTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1AA7E817A82B97D9FE5E2DA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayUpUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B0FD16B261A5A89024FC649 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayUpUITests/Pods-PayUpUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3C84E23A57E3AFCF809D8C4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayUpTests/Pods-PayUpTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		828FF27856C9F85D019E408D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9043B1513AE957C652CE7899 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PayUp/Pods-PayUp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayUp/Pods-PayUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24BFAEC3934E6DC67A8C270 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayUpTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE4286B1E886B81122D0232 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayUpUITests/Pods-PayUpUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6DE3F7BF8D3975C5E5542A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PayUp/Pods-PayUp-resources.sh",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GINInviteResources.bundle",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GPPACLPickerResources.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PayUp/Pods-PayUp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ADC64221FBCE7E200F7D581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFBD4591FD520900063BF0E /* Transactions.swift in Sources */,
+				6A3F35B51FC2447300F00B05 /* SplitAmount.swift in Sources */,
+				6ADC642C1FBCE7E200F7D581 /* LoginViewController.swift in Sources */,
+				6A6BF77E1FDA4E5000CD5766 /* NetworkCheck.swift in Sources */,
+				6AA81C971FC4B8920047F0FB /* HistoryTVCell.swift in Sources */,
+				6AFBD4571FD0BB610063BF0E /* InviteFriendsTVC.swift in Sources */,
+				6A97B5911FBE71D6002F2034 /* UserInfo.swift in Sources */,
+				6AA81C9A1FC4B8FD0047F0FB /* HistoryTVC.swift in Sources */,
+				6ADC642A1FBCE7E200F7D581 /* AppDelegate.swift in Sources */,
+				6ADC645A1FBCFD5600F7D581 /* HomePageTVC.swift in Sources */,
+				6A78998C1FCD383600EE3F63 /* Groups.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADC64361FBCE7E300F7D581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFBD45B1FD521380063BF0E /* Transactions.swift in Sources */,
+				6ADC643F1FBCE7E300F7D581 /* PayUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ADC64411FBCE7E300F7D581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFBD45A1FD521370063BF0E /* Transactions.swift in Sources */,
+				6ADC644A1FBCE7E300F7D581 /* PayUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ADC643C1FBCE7E300F7D581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADC64251FBCE7E200F7D581 /* PayUp */;
+			targetProxy = 6ADC643B1FBCE7E300F7D581 /* PBXContainerItemProxy */;
+		};
+		6ADC64471FBCE7E300F7D581 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADC64251FBCE7E200F7D581 /* PayUp */;
+			targetProxy = 6ADC64461FBCE7E300F7D581 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ADC642D1FBCE7E300F7D581 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADC642E1FBCE7E300F7D581 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ADC64321FBCE7E300F7D581 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ADC64331FBCE7E300F7D581 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ADC644C1FBCE7E300F7D581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ADC644D1FBCE7E300F7D581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ADC644F1FBCE7E300F7D581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 796669A64B40759005D758E2 /* Pods-PayUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PayUp/PayUp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQ38TXV75Y;
+				INFOPLIST_FILE = PayUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldo.PayUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6ADC64501FBCE7E300F7D581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0766362C9DB2DBF2705101 /* Pods-PayUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PayUp/PayUp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQ38TXV75Y;
+				INFOPLIST_FILE = PayUp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldo.PayUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6ADC64521FBCE7E300F7D581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5758FAB98BF6B3B5C5223BF /* Pods-PayUpTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQ38TXV75Y;
+				INFOPLIST_FILE = PayUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PayUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayUp.app/PayUp";
+			};
+			name = Debug;
+		};
+		6ADC64531FBCE7E300F7D581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBF50E85C9BEB1878C4544C8 /* Pods-PayUpTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQ38TXV75Y;
+				INFOPLIST_FILE = PayUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PayUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayUp.app/PayUp";
+			};
+			name = Release;
+		};
+		6ADC64551FBCE7E300F7D581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 502A460C0FE51A155D6D9F26 /* Pods-PayUpUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQ38TXV75Y;
+				INFOPLIST_FILE = PayUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PayUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayUp;
+			};
+			name = Debug;
+		};
+		6ADC64561FBCE7E300F7D581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5091108399E7EFD0C095B4E /* Pods-PayUpUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQ38TXV75Y;
+				INFOPLIST_FILE = PayUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PayUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PayUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ADC64211FBCE7E200F7D581 /* Build configuration list for PBXProject "PayUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADC644C1FBCE7E300F7D581 /* Debug */,
+				6ADC644D1FBCE7E300F7D581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADC644E1FBCE7E300F7D581 /* Build configuration list for PBXNativeTarget "PayUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADC644F1FBCE7E300F7D581 /* Debug */,
+				6ADC64501FBCE7E300F7D581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADC64511FBCE7E300F7D581 /* Build configuration list for PBXNativeTarget "PayUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADC64521FBCE7E300F7D581 /* Debug */,
+				6ADC64531FBCE7E300F7D581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADC64541FBCE7E300F7D581 /* Build configuration list for PBXNativeTarget "PayUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ADC64551FBCE7E300F7D581 /* Debug */,
+				6ADC64561FBCE7E300F7D581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ADC641E1FBCE7E200F7D581 /* Project object */;
+}
