@@ -4,7 +4,7 @@
 //
 //  Created by Aldo Ayala on 11/19/17.
 //  Copyright © 2017 Aldo Ayala. All rights reserved.
-//
+// checkout
 
 import UIKit
 import Firebase
